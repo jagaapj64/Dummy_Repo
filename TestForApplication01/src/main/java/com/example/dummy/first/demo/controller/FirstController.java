@@ -16,7 +16,13 @@ public class FirstController {
 	}
 	@GetMapping("/address")
 	public ResponseEntity<?> getAddressDetails() {
-		return ResponseEntity.ok("User is Not avaialbe");
+		return ResponseEntity.ok("Address is Not avaialbe");
+		
+	}
+	
+	@GetMapping("/product")
+	public ResponseEntity<?> getProductDetails() {
+		return ResponseEntity.ok("Product is not Available ");
 		
 	}
 }
