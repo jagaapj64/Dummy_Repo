@@ -14,5 +14,11 @@ public class SecondController {
 		return "Chennai TNagar";
 		
 	}
+	
+	@GetMapping("/user")
+	public String getUser() {
+		return "Java And Python";
+		
+	}
 
 }
