@@ -13,4 +13,9 @@ public class FirstController {
 		return "User is Not avaialbe";
 		
 	}
+	@GetMapping("/address")
+	public String getAddressDetails() {
+		return "User is Not avaialbe";
+		
+	}
 }
