@@ -1,5 +1,6 @@
 package com.example.dummy.first.demo.controller;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,8 +15,8 @@ public class FirstController {
 		
 	}
 	@GetMapping("/address")
-	public String getAddressDetails() {
-		return "User is Not avaialbe";
+	public ResponseEntity<?> getAddressDetails() {
+		return ResponseEntity.ok("User is Not avaialbe");
 		
 	}
 }
